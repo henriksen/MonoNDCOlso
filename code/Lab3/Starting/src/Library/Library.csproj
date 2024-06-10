@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="Types\guid-efcore.typedid" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StronglyTypedId" Version="1.0.0-beta08" />
+  </ItemGroup>
+
+</Project>
